@@ -1,28 +1,28 @@
 class Medh5 < Formula
   desc "Inspect, validate, verify and curate MEDH5 medical imaging files"
   homepage "https://github.com/XwK-P/medh5"
-  version "2.0.0"
+  version "2.0.1"
   license all_of: ["MIT", "BSD-3-Clause", "BSD-2-Clause", "Zlib", "Apache-2.0", "MIT-0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.0/medh5-2.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1e4777e0a1cfeccd70313f1398308707d2f30d296aca4517fa64b235970b8169"
+      url "https://github.com/XwK-P/medh5/releases/download/v2.0.1/medh5-2.0.1-aarch64-apple-darwin.tar.gz"
+      sha256 "db3438c44e362e74a75682822e38572a11ccfc352178711b3f2211abe1115ff2"
     end
     on_intel do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.0/medh5-2.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c730920093dbe73f0b160d477e4b4a3a28a9fc33652c2db5dc253432cc5c7147"
+      url "https://github.com/XwK-P/medh5/releases/download/v2.0.1/medh5-2.0.1-x86_64-apple-darwin.tar.gz"
+      sha256 "41800665f75cf5a25678dd4a879e9af7b098f189295da60813e11639b3873b2c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.0/medh5-2.0.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f95bf59ecc2a215c07f52c9120a34cff931fa0dc814a18c92ef04f2ddbc3d5ce"
+      url "https://github.com/XwK-P/medh5/releases/download/v2.0.1/medh5-2.0.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9891cb80a0be69ae7a8f06a59b69f86d2c6c37c2e04e6a9aa8087b878303d362"
     end
     on_intel do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.0/medh5-2.0.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fcf495897996427276bf098286e4dad35ff2672185e042eefab1fca036ec35d2"
+      url "https://github.com/XwK-P/medh5/releases/download/v2.0.1/medh5-2.0.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "856d9a8b76adf52dfe55ac122c50fe473507f7a329e55fffe245899598ae11ed"
     end
   end
 
