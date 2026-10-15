@@ -1,28 +1,28 @@
 class Medh5 < Formula
   desc "Inspect, validate, verify and curate MEDH5 medical imaging files"
-  homepage "https://github.com/XwK-P/medh5"
-  version "2.0.3"
+  homepage "https://github.com/medh5-project/medh5"
+  version "2.1.0"
   license all_of: ["MIT", "BSD-3-Clause", "BSD-2-Clause", "Zlib", "Apache-2.0", "MIT-0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.3/medh5-2.0.3-aarch64-apple-darwin.tar.gz"
-      sha256 "05a022ee4f35fe783ae60da67e44f32e4c9c175eb03ead6472e2588e64545c90"
+      url "https://github.com/medh5-project/medh5/releases/download/v2.1.0/medh5-2.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "00154f1a4a24bb09232ff13a4a7241a069b8ed64323316cba93c5479ac47885c"
     end
     on_intel do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.3/medh5-2.0.3-x86_64-apple-darwin.tar.gz"
-      sha256 "2ac2ee82d234bbfd900ccd6e953c5bcc8fb0efb788e04c7f62f41e3f79cff403"
+      url "https://github.com/medh5-project/medh5/releases/download/v2.1.0/medh5-2.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "4e26fb52760633ba044cc4986e33eece65197374dd4ace0aac4c4b6932219c6b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.3/medh5-2.0.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b37a3b52fdafb6e108bdcd993aba890aa38c2f9ab6340c84d6102b0d64506d52"
+      url "https://github.com/medh5-project/medh5/releases/download/v2.1.0/medh5-2.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7f2a5d0a21543f97eec2a1da5426b16c24c0e42affbaaf5669dc0a288bd6a840"
     end
     on_intel do
-      url "https://github.com/XwK-P/medh5/releases/download/v2.0.3/medh5-2.0.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "66ddfa1984ddba80d2b42d50ddcb9fc3ca47bdeda91b9bf42ffad2fafcaab52d"
+      url "https://github.com/medh5-project/medh5/releases/download/v2.1.0/medh5-2.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d4b7921b71befb88d5df9dac998bfc3bbae33a781465f9bb0ba8834d04b5d7b0"
     end
   end
 
